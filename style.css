@@ -1,0 +1,21 @@
+button{
+   background-color: cadetblue; 
+   color: white;
+   padding: 10px;
+   border: none;
+}
+button:hover{
+    background-color: brown;
+    color: black;
+}
+.container p:nth-last-child(1){
+    color: red;
+} 
+.new-container>p{
+    color: blue;
+}
+.para::first-line{
+    color: blueviolet;
+}
+
+
