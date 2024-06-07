@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-container{
+    background-color: rgb(238, 222, 222);
+    /* border: 1px solid red; */
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/2042526830/photo/successful-businesswoman-using-laptop-working-in-office-business-technology-corporate-concept.webp?b=1&s=170667a&w=0&k=20&c=Nh4UTuazGlQldGBdcd5SlErhzi3LwswCtAA4dJCgvIM=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: multiply;
+}
+.card-container{
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    position: absolute;
+    z-index: 2;
+    left: 10%;
+    bottom: -150px;
+}
+/* .card-items{
+
+} */

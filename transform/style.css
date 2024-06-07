@@ -1,0 +1,40 @@
+body{
+
+}
+.outer-container{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 50px  50px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* transform: scale(2); */
+    /* transform:translateX(50px);
+    transform: translateY(50px); */
+    /* transform: translate(50%,50%); */
+}
+.container:hover{
+    /* transform: rotate(70deg); */
+    transform: skewY(45deg);
+}
+.transform-container{
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+    position: relative;
+}
+.transform-sub-container{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
